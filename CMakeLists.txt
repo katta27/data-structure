@@ -3,4 +3,5 @@ project(kyaw C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(kyaw main.c)
+add_executable(kyaw main.c
+        data_structures.h)
